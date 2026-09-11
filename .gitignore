@@ -1,0 +1,24 @@
+# Raw data — see data/raw/README.md for how to get it
+data/raw/*
+!data/raw/README.md
+
+# Processed data & trained models ARE committed (small enough, and the
+# Docker build needs them) — same approach as Projects 1 and 2. If any
+# saved model exceeds GitHub's 100MB limit, exclude it specifically here
+# and document regeneration steps (see Project 2's README for that story).
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Env
+.env
+
+# OS
+.DS_Store
