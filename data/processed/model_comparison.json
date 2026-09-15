@@ -1,0 +1,32 @@
+{
+  "Naive (lag-1)": {
+    "mae": 2119.17,
+    "rmse": 3756.85,
+    "mape": 30.18
+  },
+  "Seasonal naive (lag-7)": {
+    "mae": 2178.0,
+    "rmse": 2809.07,
+    "mape": 31.82
+  },
+  "Moving average (7-day)": {
+    "mae": 2873.68,
+    "rmse": 3951.02,
+    "mape": 40.8
+  },
+  "Moving average (28-day)": {
+    "mae": 2772.2,
+    "rmse": 3852.91,
+    "mape": 39.04
+  },
+  "Seasonal naive (lag-7), 20-store subset": {
+    "mae": 2100.33,
+    "rmse": 2615.5,
+    "mape": 28.57
+  },
+  "Prophet, 20-store subset": {
+    "mae": 1730.99,
+    "rmse": 2475.17,
+    "mape": 22.58
+  }
+}

@@ -49,5 +49,4 @@ def clean_and_merge(sales_df: pd.DataFrame, store_df: pd.DataFrame) -> pd.DataFr
     df = merge_store_data(sales_df, store_df)
     df = fix_state_holiday(df)
     df = handle_missing_competition_distance(df)
-    df = filter_closed_days(df)
     return df 

@@ -1,5 +1,6 @@
 # Raw data — see data/raw/README.md for how to get it
 data/raw/*
+data/processed/*.csv
 !data/raw/README.md
 
 # Processed data & trained models ARE committed (small enough, and the
