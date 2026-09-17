@@ -28,5 +28,15 @@
     "mae": 1730.99,
     "rmse": 2475.17,
     "mape": 22.58
+  },
+  "XGBoost, full test set": {
+    "mae": 582.72,
+    "rmse": 863.01,
+    "mape": 8.64
+  },
+  "XGBoost, 20-store subset:": {
+    "mae": 540.92,
+    "rmse": 718.3,
+    "mape": 7.55
   }
 }
