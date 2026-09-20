@@ -2,6 +2,7 @@
 data/raw/*
 data/processed/*.csv
 !data/raw/README.md
+models/
 
 # Processed data & trained models ARE committed (small enough, and the
 # Docker build needs them) — same approach as Projects 1 and 2. If any
